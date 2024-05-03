@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+
+html, body, div, h1, h2, h3, h4,p, a, q, s,
+small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, 
+ol, ul, li, tr, th, td, aside, header, nav{
+margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body{
+    line-height: 1;
+}
+html {
+    font-size: 14pt;
+}
+ @media screen and (max-width: 1680px) {
+
+html {
+    font-size: 12pt;
+}
+
+}
+@media screen and (max-width: 1280px) {
+
+html {
+    font-size: 11pt;
+}
+}
+@media screen and (max-width: 720px) {
+
+html {
+    font-size: 10pt;
+ }
+}
+
+b {
+    font-weight: bold;
+}
+
+.italic-text {
+    font-style: italic;
+}
+
+a {
+    transition: color .2s ease-in-out;
+    text-decoration: none;
+    color:#ff0000;
+}
+
+a:hover {
+    font-weight: 400;
+    text-decoration: none;
+    color:#efefef;
+}
+
+
+html{
+    font-size: 14pt;
+}
+
+body {
+    background-color:rgb(55, 55, 55) ;
+    color:#efefef ; 
+}
+
+body{ 
+  font-family: "Crimson Pro", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+} 
+
+h1 {
+    text-align: center;
+}
+
+h2, h3{ 
+    margin: 10px 782px 0px 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+h5{
+    text-align: left;
+    font-weight: 600;
+    letter-spacing: 2px; 
+    font-size: 35px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    clear:both;
+}
+
+
+p {
+    margin: 0px 300px 10px 50px;
+    font-size: 22px;
+    word-spacing: 5px;
+    clear: both;
+}
+
+.left-align{
+    text-align: left;
+}
+
+h1{
+font-size: 50px;
+line-height: 1.2;
+}
+
+h2{
+    font-size: 35px;
+}
+
+h3{
+    font-size: 24px;
+    font-weight:bold;
+}
+
+h4{
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.image{
+  margin-top: 20px;
+   margin-left: 30px;
+   margin-bottom: 5px; 
+   width: 725px;
+    height: auto;
+}
+
+img.left{
+    float: left;
+    width: 725px;
+    height: auto;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin-top: 10px;
+    clear: both;
+}
+
+.bold{ 
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 22px;
+}
+
+ol{
+    list-style: decimal;
+    margin: 10px 200px 10px 50px;
+    padding-left: 20px;
+    font-size: 22px
+}
+ol li {
+    font-size: 22px;
+    text-align: left;
+    word-spacing: 2px;
+    line-height: 20px;
+}
+
+ol p {
+    text-align: left; 
+    margin-left: -40px;
+    margin-right: 0px;
+    font-weight: bold;
+    font-size: 22px
+}
+ol li ol {
+    list-style: lower-alpha; /* You can choose a different list style for subpoints */
+    margin-left: 20px; /* Adjust the indentation of the subpoints */
+    font-size: 22px;
+}
+
+ul{
+    list-style: disc;
+    margin: 10px 200px 10px 50px;
+    padding-left: 16px;
+    color: #ffffff;
+    text-align: left;
+}
+
+ul li {
+    color: #ffffff;
+    font-size: 18px;
+    padding-left: 4px;
+}
+ul li b{
+    font-weight: bold;
+}
+
+ul li a{
+    color: #ff0000;
+}
+
+.navMenu{
+    text-align: center;
+    font-size: 18px;
+    word-spacing: 8px;
+}
+
+.menu {
+    position:absolute;
+    left: 50%;
+    margin: 10px 200px 10px 50px;
+}
+
+.menu a {
+    color: #ededed;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    width: 80px;
+    text-align: left;
+}
+
+.menu a:hover {
+    color: #ff0000;
+}
+
+.menu-list {
+    margin-top: 20px; /* Adjust top margin */
+    margin-bottom: 20px; /* Adjust bottom margin */
+    margin-left: 30px; /* Adjust left margin */
+    margin-right: 30px; /* Adjust right margin */
+}
+
+.sidebar {
+    background-color: #ac0000;
+    color: #eeeeee;
+    width: 25%;
+    padding: 30px;
+    margin: 70px;
+    border-radius: 10px;
+    float: right;
+}
+
+.sidebar a:hover{
+    color:#000000
+}
+.sidebar a {
+    color:#ff0000
+}
+.sidebar ul {
+    margin-right: 20px;
+}
+.sidebar h1, h2, h3 {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.sidebar p {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+html {
+    font-size: 18pt;
+}
+ @media screen and (max-width: 1680px) {
+
+html {
+    font-size: 12pt;
+}
+
+}
+@media screen and (max-width: 1280px) {
+
+html {
+    font-size: 11pt;
+}
+}
+@media screen and (max-width: 720px) {
+
+html {
+    font-size: 10pt;
+ }
+}
